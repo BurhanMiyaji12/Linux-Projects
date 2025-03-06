@@ -1,3 +1,5 @@
+#!/bin/bash
+
 BACKUP="/backup"
 TIME=$(date+"%Y%m%d_%H%M%S" )
 BACKUP_FILE="$BACKUP/etc_backup_$TIME. tar.gz"
